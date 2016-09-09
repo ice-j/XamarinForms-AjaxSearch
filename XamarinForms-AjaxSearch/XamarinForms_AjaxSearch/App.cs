@@ -17,11 +17,9 @@ namespace XamarinForms_AjaxSearch
                 Content = new StackLayout
                 {
                     VerticalOptions = LayoutOptions.Center,
+                    Padding = new Thickness(0, 70, 0, 0),
                     Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
+                        new SearchList()
                     }
                 }
             };
